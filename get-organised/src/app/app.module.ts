@@ -18,8 +18,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 @NgModule({
   declarations: [
     AppComponent,
-    NotesComponent,
     CalendarComponent,
+    NotesComponent,
     ThemeComponent,
     PageNotFoundComponent,
   ],
@@ -31,8 +31,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     MatFormFieldModule,
     BrowserAnimationsModule,
     RouterModule.forRoot([
-      { path: 'app-notes', component: NotesComponent },
       { path: 'app-calendar', component: CalendarComponent },
+      { path: 'app-notes', component: NotesComponent },
       { path: 'app-theme', component: ThemeComponent },
       { path: '', redirectTo: '/app-theme', pathMatch: 'full' },
       { path: '**', component: PageNotFoundComponent },

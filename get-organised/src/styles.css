@@ -68,9 +68,27 @@ body {
   fill: #ffffff;
 }
 
-.centered-calendar {
-  position: absolute;
+.center-content {
   z-index: 5;
   width: 70vw;
   height: 40vh;
+  margin: auto;
+  /*background-color: #333;*/
+  padding: 1em;
+}
+
+.note-form {
+  justify-content: center;
+  /*background-color: #00ffff;*/
+  max-height: 100%;
+  padding: 1em;
+}
+
+.form-width {
+  width: 100%;
+  max-height: 100%;
+}
+
+.form-width textarea {
+  width: 100%;
 }
