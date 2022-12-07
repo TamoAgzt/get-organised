@@ -1,0 +1,53 @@
+<div id="side-nav-bar">
+  <a
+    class="button"
+    routerLink="/app-calendar"
+    routerLinkActive="activebutton"
+    ariaCurrentWhenActive="page"
+    title="CALENDAR"
+    ><!-- CALENDAR -->
+    <svg viewBox="0 0 24 24">
+      <path
+        d="M19 3H18V1H16V3H8V1H6V3H5C3.89 3 3 3.9 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 
+              20.11 21 19V5C21 3.9 20.11 3 19 3M19 19H5V9H19V19M19 7H5V5H19V7Z"
+      />
+    </svg>
+  </a>
+
+  <a
+    class="button"
+    routerLink="/app-notes"
+    routerLinkActive="activebutton"
+    ariaCurrentWhenActive="page"
+    title="NOTEPAD"
+  >
+    <svg viewBox="0 0 24 24">
+      <path
+        d="M3,6V22H21V24H3A2,2 0 0,1 1,22V6H3M16,9H21.5L16,3.5V9M7,2H17L23,8V18A2,2 0 0,1 21,
+              20H7C5.89,20 5,19.1 5,18V4A2,2 0 0,1 7,2M7,4V18H21V11H14V4H7Z"
+      />
+    </svg>
+  </a>
+
+  <a
+    class="button"
+    routerLink="/app-theme"
+    routerLinkActive="activebutton"
+    ariaCurrentWhenActive="page"
+    title="INSPECT"
+  >
+    <svg viewBox="0 0 24 24">
+      <path
+        d="M12,9A3,3 0 0,1 15,12A3,3 0 0,1
+                12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M12,4.5C17,4.5 21.27,7.61 23,12C21.27,16.39
+                17,19.5 12,19.5C7,19.5 2.73,16.39 1,12C2.73,7.61 7,4.5 12,4.5M3.18,12C4.83,15.36
+                8.24,17.5 12,17.5C15.76,17.5 19.17,15.36 20.82,12C19.17,8.64 15.76,6.5
+                12,6.5C8.24,6.5 4.83,8.64 3.18,12Z"
+      />
+    </svg>
+  </a>
+</div>
+
+<main>
+  <router-outlet> </router-outlet>
+</main>
