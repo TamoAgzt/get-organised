@@ -24,7 +24,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 **Version numbering: major udates 'x', minor updates will be '{date}'. Format "x.{date}", example: 0.20221010**
 
-**Log order Created/Added > Set/Updated/Replaced/Renamed > Deleted/Removed**
+**Log order Created/Added > Set/Updated/Replaced/Renamed > Deleted/Removed > Others**
 
 # Logs
 
@@ -47,4 +47,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ► Set theme component as default
 
-► Renamed 'inspect' to 'theme'<br>
+► Renamed 'inspect' to 'theme'
+
+► Styled notes<br>
