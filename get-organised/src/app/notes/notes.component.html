@@ -1,13 +1,33 @@
-<div class="center-content">
-  <form class="note-form">
-    <mat-form-field class="form-width">
-      <mat-label>Title</mat-label>
-      <input matInput placeholder="Title" />
-    </mat-form-field>
+<form class="note-form" #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+  <mat-form-field class="form-width">
+    <mat-label>Title</mat-label>
+    <input
+      id="note-title"
+      name="title"
+      ngModel
+      required
+      #title="ngModel"
+      matInput
+      placeholder="Title"
+    />
+  </mat-form-field>
 
-    <mat-form-field class="form-width">
-      <mat-label>Content</mat-label>
-      <textarea matInput placeholder="Content...."></textarea>
-    </mat-form-field>
-  </form>
-</div>
+  <mat-form-field class="form-width">
+    <mat-label>Content</mat-label>
+    <input
+      id="note-content"
+      name="content"
+      ngModel
+      #content="ngModel"
+      matInput
+      placeholder="Content..."
+    />
+  </mat-form-field>
+  <button>Save</button>
+</form>
+
+<!-- <p>title value: {{ title.value }}</p>
+<p>title valid: {{ title.valid }}</p>
+<p>content value: {{ content.value }}</p>
+<p>Form value: {{ f.value | json }}</p>
+<p>Form valid: {{ f.valid }}</p> -->

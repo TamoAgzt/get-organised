@@ -37,13 +37,18 @@ body {
   color: white;
 }
 
+.activebutton {
+  fill: #ffffff;
+  transition: all 500ms;
+}
+
 #side-nav-bar {
   position: absolute;
   height: 100vh;
   width: 5em;
   top: 0px;
   left: -4em;
-  background-color: #ffffff45;
+  background-color: #555555;
   border-radius: 0 1.8em 1.8em 0;
   display: flex;
   flex-direction: column;
@@ -69,16 +74,15 @@ body {
 }
 
 .center-content {
+  /*background-color: #333;*/
   z-index: 5;
   width: 70vw;
   height: 40vh;
   margin: auto;
-  /*background-color: #333;*/
-  padding: 1em;
+  padding: 2em;
 }
 
 .note-form {
-  justify-content: center;
   /*background-color: #00ffff;*/
   max-height: 100%;
   padding: 1em;
