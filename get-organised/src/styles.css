@@ -38,7 +38,7 @@ body {
 }
 
 #side-nav-bar {
-  position: absolute;
+  position: fixed;
   height: 100vh;
   width: 5em;
   top: 0px;
@@ -75,20 +75,98 @@ body {
   margin: auto;
   /*background-color: #333;*/
   padding: 1em;
+  display: flex;
+  flex-direction: column;
 }
 
-.note-form {
-  justify-content: center;
-  /*background-color: #00ffff;*/
-  max-height: 100%;
-  padding: 1em;
+.title-width {
+  width: 20%;
 }
 
-.form-width {
+.content-width {
   width: 100%;
   max-height: 100%;
 }
 
-.form-width textarea {
+.btn-note-save {
+  width: 8em;
+  height: 4em;
+  border-radius: 4em;
+  background-color: #00ffb3;
+  border: none;
+}
+
+.btn-note-save svg {
+  font-size: 100%;
+  color: #ffffff;
+  width: 3em;
+  height: 3em;
+}
+
+.btn-note-save:hover {
+  background-color: #8beeff;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-content {
+  font-size: 110%;
+  width: 80%;
+  color: #000000;
+  background-color: #888;
+}
+
+.card-content:hover {
+  background-color: rgb(255, 255, 255);
+  transition: all ease-in-out 1s;
+}
+.theme-card {
+  margin: 1em;
+  width: 14em;
+  height: 10em;
+}
+.theme-card:hover {
+  cursor: pointer;
+}
+
+.card-color {
   width: 100%;
+  height: 100%;
+  border-radius: 2em;
+  padding-top: 50%;
+  text-align: center;
+}
+
+.c-one {
+  background-color: #111;
+  color: #ff5000;
+}
+
+.c-two {
+  background-color: #111;
+  color: #1100ff;
+}
+
+.c-three {
+  background-color: #111;
+  color: #d04242;
+}
+
+.c-four {
+  background-color: #eee;
+  color: #000000;
+}
+
+.c-five {
+  background-color: #eee;
+  color: #1100ff;
+}
+
+.c-six {
+  background-color: #1a0022;
+  color: #fff;
 }

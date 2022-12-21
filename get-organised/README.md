@@ -50,3 +50,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ► Renamed 'inspect' to 'theme'
 
 ► Styled notes<br>
+
+## 0.20221221
+
+► Started setting up themes
+
+► Notes input works
+
+► You can write and see notes
+└ !!! NOT saved anywhere yet !!!

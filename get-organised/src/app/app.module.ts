@@ -8,7 +8,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatFormFieldModule } from '@angular/material/form-field';
-
+import { MatInputModule } from '@angular/material/input';
+import { MatCardModule } from '@angular/material/card';
+// MatButtonModule, MatCheckboxModule, MatFormFieldModule
 import { AppComponent } from './app.component';
 import { NotesComponent } from './notes/notes.component';
 import { CalendarComponent } from './calendar/calendar.component';
@@ -29,6 +31,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     FormsModule,
     MatDatepickerModule,
     MatFormFieldModule,
+    MatInputModule,
+    MatCardModule,
     BrowserAnimationsModule,
     RouterModule.forRoot([
       { path: 'app-calendar', component: CalendarComponent },
